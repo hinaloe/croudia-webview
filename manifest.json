@@ -1,0 +1,11 @@
+{
+  "name": "Croudia Client",
+  "description": "Croudia Client in a WebView.",
+  "version": "0.2",
+  "app": {
+    "background": {
+      "scripts": ["src/background.js"]
+    }
+  },
+  "permissions": [ "webview" , "alwaysOnTopWindows"]
+}
